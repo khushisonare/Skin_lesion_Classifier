@@ -22,6 +22,7 @@ Streamlit (for GUI)
 
 
 -How It Works-
+
 Preprocessing: Images are read, resized (64x64), and normalized. Labels are encoded using to_categorical.
 
 Model Training: CNN model is trained using model.fit() or optionally ImageDataGenerator for data augmentation.
