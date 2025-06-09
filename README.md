@@ -32,11 +32,18 @@ Confidence score
 
 
 Classes of Skin Lesions
+
 0	Melanocytic nevi (nv)
+
 1	Melanoma (mel)
+
 2	Benign keratosis-like lesions (bkl)
+
 3	Basal cell carcinoma (bcc)
+
 4	Actinic keratoses (akiec)
+
 5	Vascular lesions (vasc)
+
 6	Dermatofibroma (df)
 
