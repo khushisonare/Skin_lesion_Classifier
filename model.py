@@ -15,7 +15,7 @@ def build_model(input_shape, num_classes):
         Dense(num_classes, activation='softmax')
     ])
 
-    model.compile(optimizer='adam', loss='categorical_cross entropy', metrics=['accuracy'])
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
     return model
 
 
