@@ -36,8 +36,6 @@ train_datagen = ImageDataGenerator(
     horizontal_flip=True
 )
 
-val_datagen = ImageDataGenerator()
-
 # Train with generators
 history = model.fit(
     train_generator,
